@@ -6,7 +6,7 @@
 #include <sys/un.h>
 #include <unistd.h>
 
-#define SOCKET_PATH "unix_sock"
+#define SOCKET_PATH "tmp/unix_sock"
 #define BUFFER_SIZE 256
 
 void to_uppercase(char *str) {
